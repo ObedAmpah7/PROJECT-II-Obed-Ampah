@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Generics | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a class="nav-text" href="../index.html">HOME</a></li>
+                    <li><a class="nav-text" href="store.html">STORE</a></li>
+                    <li><a class="nav-text" href="#cart">CART</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <div class="backdrop"></div>
+        <div class="modal">
+            <h1 class="modal__title">Do you want to continue?</h1>
+            <div class="modal__actions">
+                <button class="modal__action modal__action--positive" type="button">Yes!</button> 
+                <button class="modal__action modal__action--negative" type="button">No!</button>
+            </div>
+        </div>
+        <div class="modal2">
+            <h1 class="thank-you"></h1>
+            <div class="thank-you__action">
+                <button class="OK" type="button">OK!</button>
+            </div>
+        </div>
+        <section class="container content-section" id="Women">
+            <h2 class="section-header">WOMEN</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Ladies Flower Dress</span>
+                    <img class="shop-item-image" src="../images/ladies1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">GH₵12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ladies Jeans</span>
+                    <img class="shop-item-image" src="../images/jeans.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">GH₵14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ladies Skirt</span>
+                    <img class="shop-item-image" src="../images/skirt.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">GH₵9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ladies Shoe</span>
+                    <img class="shop-item-image" src="../images/blue shoe.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">GH₵19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section" id="Men">
+            <h2 class="section-header">MEN</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">T-Shirt</span>
+                    <img class="shop-item-image" src="../images/men2.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">GH₵19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title"></span>
+                    <img class="shop-item-image" src="../images/Men1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">GH₵6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header" id="cart">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">GH₵0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <nav>
+                <ul class="main-footer__links">
+                    <li class="main-footer__link">
+                        <a href="#">Support</a>
+                    </li>
+                    <li class="main-footer__link">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

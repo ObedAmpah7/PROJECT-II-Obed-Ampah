@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+body{
+    margin: 0;
+}
+.backgroud-img{
+    background: url("images/shop.jpg") center/cover no-repeat border-box,
+    #ff1b68;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.backgroud-color{
+    height: 100vh;
+    width: 100vw;
+    background-color: #6868ca62;
+    z-index: 1;
+}
+
+.welcome-message{
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    font-size: 5rem;
+    position: relative;
+    top: 30vh;
+    /* left: 20vw; */
+}
+
+.choose-gender{
+    position: relative;
+    top: 40vh;
+    
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    margin: 0 3rem 0 3rem;
+    
+}
+.container{
+    display: flex;
+}
+.anchor{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+}
+.anchor:hover,
+.anchor:active{
+    color: #ccc;
+}
